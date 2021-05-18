@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+body {
+    font-family: 'Special Elite', cursive;
+    background-color: lightcoral;
+}
+
+.headerDiv {
+    background-color: coral;
+    color: lightgray;
+}
+
+.headerDiv img {
+    width: 100px;
+}
+
+.mainDiv {
+    background-color: salmon;
+    padding: 10px;
+    margin-top: 15px;
+    border: 3px dashed lightskyblue;
+    box-shadow: 5px 5px 18px lightsalmon;
+}
+
+#camera, #result {
+    border: 2px dashed grey;
+    width: 310px;
+    height: 300px;
+    box-shadow: 5px 5px 18px lightgrey;
+}
+
+.mainDiv button {
+    width: 310px;
+    font-size: 16px;
+    border: 1px dashed lightskyblue;
+    box-shadow: 5px 5px 18px rgba(184, 87, 51, 0.832);
+}
+
+.footerDiv {
+    margin-bottom: 50px;
+}
+
+.footerDiv h4 {
+    background-color: sandybrown;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 5px 5px 18px orange;
+}
+
+.footerDiv img {
+    width: 70px;
+}
+
+.copyRightFooter {
+    position: fixed;
+    color:rgba(184, 87, 51, 0.832);
+    bottom: 0;
+    width: 100%;
+    background-color: sandybrown;
+    line-height: 3;
+    text-align: center;
+}
+
+.mainDiv label {
+    background-color: rgb(206, 129, 87);
+    width: 310px;
+    padding: 10px;
+    margin-bottom: 0px;
+    box-shadow: 5px 5px 18px lightsalmon;
+}
